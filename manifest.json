@@ -1,0 +1,15 @@
+{
+  "name": "Zenith Harrai Shop",
+  "short_name": "ZH Shop",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e293b",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/5968/5968260.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
