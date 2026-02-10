@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-[#0f172a] text-white font-sans pb-20">
+
+    <nav class="flex justify-between items-center p-4 bg-[#1e293b] sticky top-0 z-50">
+        <div class="flex items-center gap-2">
+            <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center overflow-hidden">
+                <span class="text-black font-bold">ZH</span>
+            </div>
+            <h1 class="text-xl font-bold">Zenith Harrai</h1>
+        </div>
+        <i class="fa-solid fa-bars text-2xl"></i>
+    </nav>
+
+    <div class="p-4">
+        <div class="bg-white rounded-lg p-4 text-black text-sm">
+            <h2 class="font-bold text-center border-b pb-2 mb-2">ZenithHarrai Shop ရဲ့ အားသာချက်များ</h2>
+            <p class="mb-1"><strong>၃။ ငွေဖြည့် ပိုအဆင်ပြေခြင်း</strong></p>
+            <p class="text-xs text-gray-600 mb-2">ငွေဖြည့်ကြိုသွင်းထားရုံဖြင့် 24/7 ကြိုက်တဲ့အချိန်ဝယ်ယူနိုင်ပါတယ်...</p>
+            <p class="mb-1"><strong>၄။ ဈေးနှုန်းပိုသက်သာခြင်း</strong></p>
+            <p class="text-xs text-gray-600">MLBB / PUBG ကို အသက်သာဆုံးဈေးနဲ့ ရရှိနိုင်မှာဖြစ်ပါတယ်...</p>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-4 p-4">
+        <div class="bg-gradient-to-b from-[#1e293b] to-[#334155] p-4 rounded-xl border-b-4 border-red-500">
+            <p class="text-gray-400 text-sm">လက်ရှိငွေ</p>
+            <p class="text-xl font-bold mt-1">945944 <span class="text-xs">Ks</span></p>
+        </div>
+        <div class="bg-gradient-to-b from-[#1e293b] to-[#334155] p-4 rounded-xl border-b-4 border-yellow-500">
+            <p class="text-gray-400 text-sm">သုံးစွဲထားသောငွေ</p>
+            <p class="text-xl font-bold mt-1">1456979 <span class="text-xs">Ks</span></p>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-4 px-4">
+        <button class="bg-[#f59e0b] p-4 rounded-lg flex items-center justify-center gap-2 font-bold text-black text-sm">
+            <i class="fa-solid fa-wallet"></i> ငွေဖြည့်ရန်
+        </button>
+        <button class="bg-[#f59e0b] p-4 rounded-lg flex items-center justify-center gap-2 font-bold text-black text-sm">
+            <i class="fa-solid fa-clock-rotate-left"></i> ငွေဖြည့်မှတ်တမ်း
+        </button>
+        <button class="bg-[#f59e0b] p-4 rounded-lg flex items-center justify-center gap-2 font-bold text-black text-sm">
+            <i class="fa-solid fa-bell"></i> အသိပေးချက်များ
+        </button>
+        <button class="bg-[#475569] p-4 rounded-lg flex items-center justify-center gap-2 font-bold text-white text-sm">
+            <i class="fa-solid fa-file-lines"></i> အော်ဒါမှတ်တမ်း
+        </button>
+    </div>
+
+    <div class="grid grid-cols-2 gap-4 p-4 mt-2">
+        <div class="relative h-32 rounded-xl overflow-hidden shadow-lg border border-gray-700">
+            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=400" class="w-full h-full object-cover opacity-50">
+            <div class="absolute inset-0 flex flex-col items-center justify-center">
+                <i class="fa-solid fa-gamepad text-2xl mb-1"></i>
+                <p class="font-bold">Games</p>
+                <p class="text-xs text-gray-300">Mobile Games</p>
+            </div>
+        </div>
+        <div class="relative h-32 rounded-xl overflow-hidden shadow-lg border border-gray-700">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=400" class="w-full h-full object-cover opacity-50">
+            <div class="absolute inset-0 flex flex-col items-center justify-center">
+                <i class="fa-solid fa-cart-shopping text-2xl mb-1"></i>
+                <p class="font-bold">Digital</p>
+                <p class="text-xs text-gray-300">Digital Shop</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed bottom-0 w-full bg-[#1e293b] flex justify-around p-3 border-t border-gray-700">
+        <div class="text-center text-yellow-500">
+            <i class="fa-solid fa-house text-xl"></i>
+            <p class="text-[10px]">Home</p>
+        </div>
+        <div class="text-center text-gray-400">
+            <i class="fa-solid fa-gamepad text-xl"></i>
+            <p class="text-[10px]">Games</p>
+        </div>
+        <div class="bg-blue-600 w-14 h-14 rounded-full -mt-8 flex items-center justify-center border-4 border-[#0f172a] shadow-lg">
+            <i class="fa-solid fa-wallet text-xl"></i>
+        </div>
+        <div class="text-center text-gray-400">
+            <i class="fa-solid fa-clock-rotate-left text-xl"></i>
+            <p class="text-[10px]">Orders</p>
+        </div>
+        <div class="text-center text-gray-400">
+            <i class="fa-solid fa-user text-xl"></i>
+            <p class="text-[10px]">Profile</p>
+        </div>
+    </div>
+
+</body>
+</html>
